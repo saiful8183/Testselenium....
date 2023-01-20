@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T04:47:00 EST" name="Suite" finished-at="2023-01-20T04:47:03 EST" duration-ms="2754">
+    <groups>
+    </groups>
+    <test started-at="2023-01-20T04:47:00 EST" name="Test" finished-at="2023-01-20T04:47:03 EST" duration-ms="2754">
+      <class name="selenium.Apptest">
+        <test-method signature="testlogin1()[pri:0, instance:selenium.Apptest@7f0eb4b4]" started-at="2023-01-20T04:47:03 EST" name="testlogin1" finished-at="2023-01-20T04:47:03 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin1 -->
+        <test-method signature="testlogin2()[pri:0, instance:selenium.Apptest@7f0eb4b4]" started-at="2023-01-20T04:47:03 EST" name="testlogin2" finished-at="2023-01-20T04:47:03 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin2 -->
+      </class> <!-- selenium.Apptest -->
+      <class name="selenium.TC_login">
+        <test-method signature="login_Test()[pri:0, instance:selenium.TC_login@8f4ea7c]" started-at="2023-01-20T04:47:00 EST" name="login_Test" finished-at="2023-01-20T04:47:03 EST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+      </class> <!-- selenium.TC_login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

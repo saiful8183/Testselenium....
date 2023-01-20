@@ -1,17 +1,32 @@
 package selenium;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import sdet.com.App;
 
 public class Apptest {
 
-	public static void main(String[] args) {
-		
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\Saiful Chowdhury\\OneDrive\\Desktop\\Automation\\chromedriver.exe");	
-		WebDriver driver=new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/signup");
+	  @Test
+	public void testlogin1()
+
+	{
+	    App myapp=new App();
+	    Assert.assertEquals(0,myapp.userLogin("abc","abc123"));
+	}
+
+
+
+	    @Test
+	public void testlogin2()
+
+	{
+	App myapp=new App();
+	Assert.assertEquals(1,myapp.userLogin("abc","abc@123"));
+	}
+
 
 	}
 
-}
+
